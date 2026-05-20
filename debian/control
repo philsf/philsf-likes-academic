@@ -19,6 +19,7 @@ Recommends:
  emacs,
  pandoc,
  quarto,
+ zotero,
  imagemagick,
  aspell-en,
  aspell-pt,
