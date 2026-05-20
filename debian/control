@@ -1,0 +1,45 @@
+Source: philsf-likes-academic
+Section: unknown
+Priority: optional
+Maintainer: Felipe Figueiredo <Felipe Figueiredo <philsf79@gmail.com>>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/philsf-likes-academic
+#Vcs-Git: https://salsa.debian.org/debian/philsf-likes-academic.git
+
+Package: philsf-likes-academic
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+Recommends:
+ emacs,
+ pandoc,
+ quarto,
+ imagemagick,
+ aspell-en,
+ aspell-pt,
+ iamerican,
+ ibrazilian,
+ iportuguese,
+ texlive-bibtex-extra,
+ texlive-lang-english,
+ texlive-lang-portuguese,
+ texlive-latex-extra,
+ texlive-latex-recommended,
+ texlive-math-extra,
+ texlive-publishers,
+ untex,
+ antiword,
+ odt2txt,
+Suggests:
+ mendeleydesktop,
+ gnuplot,
+ octave,
+ prosper,
+ pybliographer,
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
