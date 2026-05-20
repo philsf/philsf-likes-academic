@@ -1,14 +1,14 @@
 Source: philsf-likes-academic
-Section: unknown
+Section: metapackages
 Priority: optional
 Maintainer: Felipe Figueiredo <philsf79@gmail.com>
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.6.2
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Browser: https://salsa.debian.org/debian/philsf-likes-academic
-#Vcs-Git: https://salsa.debian.org/debian/philsf-likes-academic.git
+# Homepage: <insert the upstream URL, if relevant>
+Vcs-Browser: https://code.launchpad.net/~philsf/+git/philsf-likes-academic
+Vcs-Git: https://git.launchpad.net/~philsf/+git/philsf-likes-academic
 
 Package: philsf-likes-academic
 Architecture: all
