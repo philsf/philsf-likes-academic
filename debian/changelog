@@ -1,3 +1,9 @@
+philsf-likes-academic (0.2.0) resolute; urgency=medium
+
+  * INFRA: upgrade control and rules to new metapackage structure
+
+ -- Felipe Figueiredo <philsf79@gmail.com>  Thu, 25 Jun 2026 20:07:32 -0300
+
 philsf-likes-academic (0.1.1) noble; urgency=medium
 
   * Added (Recommends): zotero

@@ -3,8 +3,7 @@ Section: metapackages
 Priority: optional
 Maintainer: Felipe Figueiredo <philsf79@gmail.com>
 Rules-Requires-Root: no
-Build-Depends:
- debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 13),
 Standards-Version: 4.6.2
 # Homepage: <insert the upstream URL, if relevant>
 Vcs-Browser: https://code.launchpad.net/~philsf/+git/philsf-likes-academic
@@ -13,8 +12,7 @@ Vcs-Git: https://git.launchpad.net/~philsf/+git/philsf-likes-academic
 Package: philsf-likes-academic
 Architecture: all
 Multi-Arch: foreign
-Depends:
- ${misc:Depends},
+Depends: ${misc:Depends},
 Recommends:
  emacs,
  pandoc,
@@ -42,5 +40,8 @@ Suggests:
  octave,
  prosper,
  pybliographer,
-Description: <insert up to 60 chars description>
- <Insert long description, indented with spaces.>
+Description: philsf's academic toolkit
+ Metapackage for academic publishing tools.
+ .
+ It is designed to enable a working environment with a full LaTeX
+ stack, dictionaries, and reference managers for researchers.
