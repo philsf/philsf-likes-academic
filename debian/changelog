@@ -1,5 +1,6 @@
 philsf-likes-academic (0.2.1) UNRELEASED; urgency=medium
 
+  * fix initial date
 
  -- Felipe Figueiredo <philsf79@gmail.com>  Thu, 25 Jun 2026 22:04:33 -0300
 
