@@ -1,3 +1,9 @@
+philsf-likes-academic (0.2.1) resolute; urgency=medium
+
+  * fix initial date
+
+ -- Felipe Figueiredo <philsf79@gmail.com>  Fri, 26 Jun 2026 06:14:35 -0300
+
 philsf-likes-academic (0.2.0) resolute; urgency=medium
 
   * INFRA: upgrade control and rules to new metapackage structure
